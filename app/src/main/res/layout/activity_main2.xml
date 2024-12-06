@@ -24,7 +24,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="227dp">
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/txtUsuario"
@@ -40,6 +40,19 @@
                     android:layout_height="wrap_content"
                     android:hint="Ingrese su cedula"
                     android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                tools:layout_editor_absoluteX="-1dp"
+                tools:layout_editor_absoluteY="86dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Contraseña"
+                    android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
